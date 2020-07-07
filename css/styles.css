@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    overflow-x: hidden;
+    
+}
+body {
+    overflow: hidden !important;
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+color:#fff;
+}
+a.nav-link{
+ color:#fff;  
+}
+a.nav-link:hover{
+    background-color:#3d5905;  
+}
+a:hover{
+color:#fff;
+}
+.navbar{
+    border-top:2px solid #e1e1e1;
+    border-bottom:2px solid #e1e1e1;
+    padding:0px;
+    background-color:#6c8c27;
+}
+.navbar .nav-link.active{
+    border-left:#444 3px solid;
+
+}
+
+.nav-link{
+    color:#fff;
+    text-transform:capitalize;
+  
+    letter-spacing:0.2rem;
+}
+.nav-link:hover{
+    color:#fff;
+}
+
+#main-nav{
+    background-color:#6c8c27;
+    padding:.5rem;
+}
+
+    .display-4{
+text-shadow: 2px 2px 5px #000;
+}
+
+.display-4{
+font-size:2.3rem;
+font-weight:700;
+}
+
+@media (min-width: 768px) {   
+.display-4{
+font-size:3.5rem;
+}
+h4{
+font-size:1.8rem;
+}
+h3{
+font-size:2.1rem;
+}
+
+}
+
+h2{
+font-size:2.5rem;
+}
+h3{
+font-size:2.1rem;
+}
+h4{
+font-size:1.5rem;}
+h5{
+font-size:1.3rem;
+}
+h6{
+font-size:1.1rem;
+}
+.title{
+    background-color:#c2bda6;
+    padding:1rem;
+    letter-spacing:0.2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+}
+.footer-title:first-letter{
+font-size:2.0rem;
+color:#3d5905;
+font-family: 'Pacifico', cursive;
+}
+
+
+
+
+.title::first-letter{
+font-size:3.5rem;
+color:#3d5905;
+font-family: 'Pacifico', cursive;
+}
+
+.footer-title{
+font-size:1.6rem;
+color:#ffffff;
+
+}
+a[href^="tel"] {
+    color: inherit; /* Inherit text color of parent element. */
+    text-decoration: none; /* Remove underline. */
+    /* Additional css `propery: value;` pairs here */
+  }
+
+
+.jumbotron-fluid-home{
+background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),url(../images/noodles.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+height:80vh;
+color:#fff;
+
+}
+.jumbotron-fluid-banquet{
+background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),url(../images/tent-table.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+height:60vh;
+color:#fff;
+
+
+}
+.jumbotron-fluid-culinary{
+background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),url(../images/f3.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+height:60vh;
+color:#fff;
+
+
+}
+
+.jumbotron-fluid-blog{
+background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),url(../images/baking-cheese-cooking-crust-315755.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+height:60vh;
+color:#fff;
+
+
+}
+
+
+
+
+
+.underline{
+ width:55px;
+ border:3px solid #b89f42;
+ margin:auto;
+
+
+}
+.p{
+line-height:1.9em;
+letter-spacing:9rem;
+}
+/* custom styles*/
+.btn-green{
+color:#3d5905;
+border: 1px solid #3d5905;
+border-radius:0;
+padding:10px 19px;
+}
+
+.btn-green-white{
+color:#ffffff;
+border: 1px solid #ffffff;
+border-radius:0;
+}
+
+.btn-green-white:hover,
+.btn-green:hover{
+background-color:#6c8c27!important;
+color:#fff;
+}
+.bg-light-green{
+background-color:#a4c75a;
+}
+.bg-green{
+background-color:#6c8c27;
+}
+.bg-tomatoe{
+background-color:#501e00}
+.bg-orange{
+background-color:#bc871f;
+}
+.bg-orange-green{
+background-color:#b89f42;
+}
+.bg-gold{
+background-color:#cea105;
+}
+
+
+.mt-8{
+margin-top:8rem;
+}
+
+/* viewport heights*/
+.viewport-40{
+    min-height:40vh;
+}
+
+.viewport-60{
+    min-height:60vh;
+}
+
+.viewport-70{
+    min-height:70vh;
+}
+/* custom styles end*/
+
+/* menu-banner*/
+.bg-breakfast{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url(../images/high-stack-pancakes.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    height:20rem;
+}
+.bg-lunch{
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.3)), url(../images/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
+    height:20rem;
+}
+.bg-dinner{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url(../images/steak.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    height:20rem;
+}
+
+/* customers favorites*/
+
+.overlay {
+    opacity: 0;
+    transition: 1s;
+}
+
+.overlay:hover {
+    opacity: 1;
+    background: rgb(0,0,0,0.6);
+}
+
+.footer a,
+.footer{
+color:#fff;
+
+}
+
+#lower-footer{
+background-color:#6c8c27;
+border-top:1px solid #000;
+
+}
+
+/* menu card styles*/
+
+#card-breakfast{
+border:1px solid #3d5905;
+}
+
+.card-header{
+border-bottom:0;
+
+}
+
+#card-lunch{
+border:2px solid #bc871f;
+
+}
+
+
+#card-contact1,
+#card-contact2,
+#card-dinner{
+border:1px solid #3d5905;
+
+}
+
+
+#contact-bg,
+#menu-bg{
+background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(../images/green-leaf.jpg);
+background-size:cover;
+background-position:center;
+
+min-height:70vh;
+}
+
+.banquet-text{
+font-size:700;
+}
+.card-body p{
+font-size:20px;
+
+}
+
+#about-background{
+    background-color:#6c8c27;
+}
+
+#about-background .background-image{
+    background-image:url('../images/crepe-pancakes.jpg');
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;   
+    border-top:400px solid  transparent;
+    border-right:150px solid #6c8c27;
+}
+
+/* culinary*/
+
+.culinary .content p{
+    font-size:1.8rem;
+    line-height:3rem;
+}
+
+.culinary .content h2{
+ text-shadow: 2px 2px 5px #fff;
+}
+
+.card .card-meta{
+    background-color:#6c8c27;
+
+
+}
+.card-title{
+   font-size:1.6rem;
+
+}
+
+.card{
+margin-bottom:4rem;
+}
+
+.badge{
+   background-color:#444;
+}
+
+  
+   .form-control{
+    background:transparent;
+    border:none;
+    font-size:1.5em;
+    border-radius:0;
+    border-bottom:2px solid #6c8c27;
+    margin-bottom:20px;
+}
+
+
+
+.form-signin{
+   background-color:#fff;
+   border:2px solid #6c8c27;
+   padding:25px;
+
+}
+
+
+
+
+
+
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0; }

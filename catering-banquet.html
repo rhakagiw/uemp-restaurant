@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+ 
+        <!--styles css-->
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Book-event/Ulti-MEAT Eats Pantry</title>
+    </head>
+
+<body>
+    <header class="header">
+        <h4 class="title text-center text-white text-capitalize mb-0">Ulti-MEAT Eats Pantry </h4>
+        <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#main-nav"
+                aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="main-nav" class="collapse navbar-collapse">
+                <nav class="nav container justify-content-between flex-column text-center flex-md-row">
+                    <a href="index.html" class="nav-link">home</a>
+                    <a href="menu.html" class="nav-link ">menu</a>
+                    <a href="banquet.html" class="nav-link active ">banquet</a>
+                    <a href="culinary.html" class="nav-link">culinary school</a>
+                    <a href="blog.html" class="nav-link">blog</a>
+                    <a href="login.html" class="nav-link">login</a>
+                    <a href="contact.html" class="nav-link">contact us</a>
+                </nav>
+
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col text-center">
+                <div class="story-title">
+                    <h2 class="mt-3">Book Your Event</h2>
+                    <div class="underline mb-5"></div>
+                </div>
+                <!--end of story-title-->
+            </div>
+            <!--end of col-->
+        </div>
+        <!--end of row-->
+        <div class="row justify-content-center">
+        <div class="card pt-5">
+            <div class="col-md-10">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName"
+                                placeholder="First Name" />
+                        </div>
+                        <!--end of col-->
+                    </div>
+                    <!--end of form-group-->
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName"
+                                placeholder="Last Name" />
+                        </div>
+                        <!--end of col-->
+                    </div>
+                    <!--end of form-group row-->
+                    <div class="form-group row">
+                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areaCode" name="areaCode"
+                                placeholder="Area code" />
+                        </div>
+                        <!--end of col-->
+                        <div class="col-7">
+                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                        </div>
+                        <!--end of col-->
+                    </div>
+                    <!--end of form-group row-->
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                        <!--end of col-->
+                    </div>
+                    <!--end of form-group row-->
+
+
+
+                    <div class="form-group row">
+                        <label for="numGuests" class="col-form-label selectpicker col-sm-6">Number of Guest</label>
+                        <div class="col">
+
+                            <select class="form-control" name="numguests" id="numguests">
+                                <option selected class="bg-green">Select...</option>
+                                <option value="1">up to 75 guest</option>
+                                <option value="2">up to 175 guest</option>
+                                <option value="3">up to 300 guest</option>
+                                <option value="4">up to 400 guest</option>
+                                <option value="5">up to 600 guest</option>
+                                <option value="6">up to 800</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!--end of formgroup-->
+                    <div class="form-group row">
+                        <label for="Banquet-room" class="col-form-label col-sm-6">Banquet Room</label>
+                        <div class="col">
+
+                            <select class="form-control" name="banquet-room" id="banquet-room">
+                                <option selected>Select...</option>
+                                <option value="1">Banquet Rm A- 75 guest</option>
+                                <option value="2">Banquet Rm B -175 guest</option>
+                                <option value="3">Banquet Rm C -400 guest</option>
+                                <option value="4">Tent A 300 guest- pond view</option>
+                                <option value="5">Tent B 600 guest- creek view</option>
+                                <option value="6">Tent C 800 guest- lake view</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!--end of formgroup-->
+                    <div class="form-group row">
+                        <label for="Catering-menu" class="col-form-label col-sm-6">Catering Menu</label>
+                        <div class="col">
+
+                            <select class="form-control" name="cattering-menu" id="catering-menu">
+                                <option selected>Select...</option>
+                                <option value="1">Menu 1 75 guest $1125 |175 guest $2800</option>
+                                <option value="2">Menu 2</option>
+                                <option value="3">Menu 3</option>
+                                <option value="4">Menu 4</option>
+                             </select>
+                        </div>
+                    </div>
+                    <!--end of formgroup-->
+
+                    <div class="form-group row">
+                        <label for="date" class="col-form-label col-sm-6">Date</label>
+                        <div class="col-sm-6">
+                            <input type="date" class="form-control" id="date" placeholder="date">
+                        </div>
+                        <!--end of col-->
+                    </div>
+                    <!--end of form-group-->
+                      <div class="form-group row">
+                        <label for="Pay-options" class="col-form-label col-sm-6">Pay Options</label>
+                        <div class="col">
+
+                            <select class="form-control" name="pay-options" id="pay-options">
+                                <option selected>Select...</option>
+                                <option value="1">Pay 25% deposit</option>
+                                <option value="2">Pay 50% deposit</option>
+                                <option value="3">Pay in full</option>
+                          
+                            </select>
+                        </div>
+                    </div>
+                    <!--end of formgroup-->
+
+                        <div class="form-group row">
+                        <div class=" col-md-10">
+                          <p>Click the button below to complete your reservation and purchase.</p>
+                            <button type="submit" class="btn btn-green">Make Payment</button>
+                        </div>
+                        <!--end of col-->
+                    </div>
+                    <!--end of form-group row-->
+                </form>
+            </div>
+            </div><!--end of card-->
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="container-fluid bg-light-green pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5><a href="banquet.html">Register for a Banquet Event</h5></a>
+                        <h5><a href="menu.html">Make a Dine in Reservation</h5></a>
+                        <h5><a href="culinary.html">Register for Culinary School</h5></a>
+                    </div>
+                    <!--end of col-->
+                    <div class="col-md-6">
+                        <h4 class="footer-title mb-2">Ulti-MEAT Eats Pantry </h4>
+                        <p><span><a href="tel+123-456-7890">(123)456-7890</a></span></p>
+                        <p><span><a href="mailto:rwebdesigns@outlook.com"
+                                    target="_top">ultimeateatpantry@test</a></span></p>
+                        <p>12323 Sample Bvd. Belleville, Mi 00000</p>
+                    
+                    </div>
+                    <!--end of col-->
+
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+            <div class="row align-items-center" id="lower-footer">
+                <ul class="nav col flex-column flex-md-row text-center">
+                    <a href="index.html" class="nav-link">home</a>
+                    <a href="menu.html" class="nav-link">menu</a>
+                    <a href="banquet.html" class="nav-link active">banquet</a>
+                    <a href="culinary.html" class="nav-link">culinary school</a>
+                     <a href="blog.html" class="nav-link">blog</a>
+                    <a href="login.html" class="nav-link">login</a>
+                    <a href="contact.html" class="nav-link">contact us</a>
+                </ul>
+
+                <hr>
+                <p class="copyright col-md-4 text-md-right text-light"><small>
+                        2020 &copy; Designed by Rhakagi Wahhab</small>
+                </p>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </div>
+    <!--end of container-fluid-->
+    </div>
+    <!--end of footer-->
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+    
+
+
+
+</body>
+
+</html>
